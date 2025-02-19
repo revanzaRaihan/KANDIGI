@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+body{
+    background-image: url(/img/bg.png);
+    background-color: #1C8CFF !important;
+    background-blend-mode: overlay;
+}
+
+.headingText > h1{
+    color: white;
+    position: relative;
+    top: 50px;
+    margin-left: 5vw;
+    font-size: 60px;
+    font-family: "Big Shoulders Text", serif;
+}
+
+.bgImage{
+    z-index: -10;
+    height: 700px;
+    opacity: 50%;
+}
+
+.nextButton > button{
+    color: black;
+    position: relative;
+    top: 80px;
+    margin-left: 5vw;
+    padding: 10px 50px;
+    border-radius: 40px;
+}
+
+.overlay{
+    position: relative;
+}
+
+.overlay > img{
+    position: absolute;
+    left: 966px;
+    bottom: -271px;
+    width: 400px;
+}
+
+/* .overlay > .lingkaran{
+    position: absolute;
+    background-color: white;
+    border-radius: 100px 100px 100px 0px;
+    padding: 100px;
+    left: -50px;
+    bottom: -290px;
+    width: 100px;
+    overflow: hidden;
+}
+ */
